@@ -1,0 +1,35 @@
+{
+  "coord": { "lon": -91.5302, "lat": 41.6611 },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 291.1,
+    "feels_like": 290.28,
+    "temp_min": 290.13,
+    "temp_max": 293.07,
+    "pressure": 1018,
+    "humidity": 51
+  },
+  "visibility": 10000,
+  "wind": { "speed": 2.68, "deg": 354, "gust": 6.71 },
+  "clouds": { "all": 97 },
+  "dt": 1663808041,
+  "sys": {
+    "type": 2,
+    "id": 2073340,
+    "country": "US",
+    "sunrise": 1663761152,
+    "sunset": 1663805154
+  },
+  "timezone": -18000,
+  "id": 4862034,
+  "name": "Iowa City",
+  "cod": 200
+}

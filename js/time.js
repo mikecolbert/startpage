@@ -16,7 +16,7 @@ function displayClock() {
   ];
 
   // Set to true to use a 12 hour date format
-  var format_12hour = false;
+  var format_12hour = true;
 
   var d = new Date();
   var mm = monthNames[d.getMonth()];
@@ -27,7 +27,7 @@ function displayClock() {
   var yy = d.getFullYear();
 
   if (format_12hour) {
-    ampm = hh >= 12 ? " PM" : " AM";
+    ampm = hh >= 12 ? " pm" : " am";
     hh = hh % 12;
     hh = hh ? hh : 12; //show mod 0 as 12
   }
@@ -35,6 +35,7 @@ function displayClock() {
   document.getElementById("hour").innerText = hh;
   document.getElementById("separator").innerHTML = " : ";
   document.getElementById("minutes").innerText = min + ampm;
+  //document.getElementById("minutes").innerText = min;
 
   document.getElementById("day").innerText = dd;
   document.getElementById("month").innerText = mm;
